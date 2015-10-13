@@ -10,32 +10,57 @@ margin-top: 0;
 h1 {
   background-color: #2d5867;
   color: #e6e9f0;
-border-bottom-width: 20px;
-
+  border-bottom-width: 20px;
   padding-top: 5px;
+  border-bottom-style: solid;
+  border-bottom-color: #2c003a; ;
+}
+h2 {
+  font-size: 30px;
+  text-align: center;
+  padding: 5x;
+  color:#e6e9f0;
 
-    border-bottom-style: solid;
-border-bottom-color: #2c003a; ;
 }
 
 #nav {
   float: left;
-  max-width: 300px;
-  height: 450px;
-   border: 10px solid #e6e9f0;
-  border-radius: 35px;
+  max-width: 350px;
+  height: 580px;
+  padding: 10px;
+  margin-left: 100px;
+   border-top: 5px solid #2d5867;
+    border-bottom: 15px solid #2c003a;
+    border-left: 15px solid red;
+    border-right: 10px solid #2d5867;
+    border-radius:10px;
 }
 #x {
-  float: left;
-  width: 200px;
-  height: 200px;
-  border: 10px solid #e6e9f0;
-  border-radius: 35px;
-    background: url(skelator.jpg);
-    background-size: 200px 200px;
-    background-repeat: no-repeat;
+  position: center;
+  width: 180px;
+  height: 180px;
+  margin-left: 60px;
+  background: url(images/He-Man-Battle-Cat.jpg);
+  background-size: 200px 200px;
+  background-repeat: no-repeat;
+  border: 15px solid #2c003a;
+  border-radius: 5px;
+  padding: 5px;
 }
 
+#o {
+   float: left;
+  width: 180px;
+  height: 180px;
+  margin-top: 15px;
+  margin-left: 60px;
+  border: 10px solid red;
+  border-radius: 5px;
+   background: url(images/skelator.jpg);
+    background-size: 200px 200px;
+    background-repeat: no-repeat;
+    padding: 5px;
+}
 
 
 #container {
@@ -45,20 +70,20 @@ border-radius: 10px;
     border: 15px solid #e6e9f0;
     max-width: 800px;
     height: 800px;
-    margin: 20px 20px 20px 500px;
+    margin: 20px 20px 20px 800px;
     padding: 20px;
     float: clear;
 
 }
 table {
-  background-image: url("grayskull.jpg");
+  background-image: url("images/grayskull.jpg");
 background-position: center;
   border-radius: 15px;
-border: 10px solid #2c003a;
+border: 15px solid #2c003a;
 
 
 position: absolute;
-margin-left: 55px;
+margin-left: 50px;
 
 margin-top: 50px;
 padding: 10px;
